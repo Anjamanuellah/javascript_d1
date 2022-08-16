@@ -84,8 +84,25 @@ function calculatrice(a, b, signe){
     }
 }
 
+// do_while
+function calculatrice(a, b, signe){
+do {
+    a / b;
+} 
+while (a != 0);
+}
 
-
+// switch_case
+function calculatrice(a, b, signe){
+    switch(signe){
+        case "addition" :
+        return a + b;
+        case "soustraction" :
+        return a - b;
+    }
+}
+console.log(addition(10,10))
+console.log(soustraction(10,10))
 //console.log(division(10, 2));
 //console.log(multiplication(4 , 4))
 //console.log(soustraction(4, 2));
