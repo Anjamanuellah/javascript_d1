@@ -128,7 +128,7 @@ creatin d' une branche:1. git branch <nom de la branche>
                     3. git checkout -b branche2 branche1 (creation de la branche2 a partir de la branche1)
 basculement : git checkout (pour afficher l'ancien commit) 
                             (permet de basculer entre les branches crée au moyen de git branch)                      
-mise a jour: merge
+mise a jour: merge 
               rebase
 suppresion de la branche: git checkout
                           git branch -d<nom de la branche>
@@ -191,3 +191,5 @@ console.table(alphabet);         //afficher tab
 
 //alphabet.includes("b");
 console.log(alphabet.includes("b"));  //misy "b" ve ao? true / false
+
+
