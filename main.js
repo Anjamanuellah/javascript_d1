@@ -134,7 +134,7 @@ suppresion de la branche: git checkout
                           git branch -d<nom de la branche>
 git = recherche 
 
- tableau ARRAY
+ tableau ARRAY_______
 tableau zvtr afaana mstocker zavatra 
 stucturé kokoa noho ny var
 
