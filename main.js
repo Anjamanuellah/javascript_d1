@@ -120,7 +120,7 @@ compilé E var
 */
 ____________________________________________________________________________
 /*javascript_d2
-branche creation & basculement & mise a jour & suppretion branche 
+branche creation & basculement & mise a jour & suppression branche 
 creatin d' une branche:1. git branch <nom de la branche>
                          git branch (pour afficher la liste de branche)
                     2.git checkout -b <branch name>
