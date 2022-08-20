@@ -147,7 +147,7 @@ pointeur(un var)= un cle :initiateur ny tab= alefa mitety ny tab
  tab multidim: tab dans tab 
 */
 // decl tab 
-/*
+
 var alphabet = ["a", "b", "c"];
 for (let pointer = 0; pointer < alphabet.length; pointer++) {
     console.log(pointer);
@@ -167,7 +167,7 @@ var alphabet = ["a" , "b" , "c"];
     console.log(alphabet)
 
 
-    var alphabet =  ["a" , "b" , "c"];
+var alphabet =  ["a" , "b" , "c"];
     alphabet.shift();                     //.shift=manala ny ao aloha 
     console.log(alphabet);
 
@@ -188,5 +188,5 @@ console.table(alphabet);         //afficher tab
 var alphabet = ["a" , "b" , "c"];
 alphabet.includes("b");
 console.log(alphabet.includes("b"));  //misy "b" ve ao? (true / false)
-*/
+
 
