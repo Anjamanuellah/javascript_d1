@@ -1,15 +1,15 @@
+//nb: un langage compilé = var  fonc   cond 
 //declaration en js:
 
 var color = "red";
 let name ="anja";
 const vitesse ="10km/h";
+var color = "bleu"; //var sy let afaka redeclarena: mutable 
+                    //const tsy afaka redeclarena :immutable 
 
-/*var color = "bleu" var sy let afaka redeclarena: mutable 
-const tsy afaka redeclarena :immutable 
-nb: un langage compilé = var  fonc   cond 
+/*
  decl fonction = action (return =finalité de la fonction)
  ao am fonction misy argument 
-
 ex declaration fonction
 ex1:function preparing() {
    console.log("misakafo");
@@ -20,15 +20,12 @@ ex1:function preparing() {
 function addition(a, b) {
     return a + b;
 }
-
 function soustraction(a, b) {
     return a - b;
 }
-
 function multiplication(a, b) {
     return a * b;
 }
-
 function division(a, b) {
     return a / b;
 } 
@@ -50,7 +47,6 @@ var division = (a, b) => {
     return a / b;
 }
 
-
 //condition:
 /*
 if =raha,
@@ -62,14 +58,14 @@ while =rehefa,
   === comparer type et valeur
    ==comparer valeur
 */
-
+/*
 if ("bleu" === "red") {
     console.log("true");
 }
 else {
     console.log("false");
 }
-
+*/
 
 function calculatrice(a, b, signe){
     if (signe === "+"){
@@ -113,12 +109,12 @@ function calculatrice(a, b, signe){
 //console.log(division(10, 2));
 //console.log(multiplication(4 , 4))
 //console.log(soustraction(4, 2));
-//preparing();
 //console.log(addition(2, 2));
 //console.log(preparing());
 //console.log(vitesse);
 //console.log(color, name);     
 //____________________________________________________________________________
+
 /*javascript_d2
 recherche sur :branche creation & basculement & mis a jour & suppression branche 
 creatin d' une branche:1. git branch <nom de la branche>
@@ -151,7 +147,7 @@ pointeur(un var)= un cle :initiateur ny tab= alefa mitety ny tab
  tab multidim: tab dans tab 
 */
 // decl tab 
-
+/*
 var alphabet = ["a", "b", "c"];
 for (let pointer = 0; pointer < alphabet.length; pointer++) {
     console.log(pointer);
@@ -192,5 +188,5 @@ console.table(alphabet);         //afficher tab
 var alphabet = ["a" , "b" , "c"];
 alphabet.includes("b");
 console.log(alphabet.includes("b"));  //misy "b" ve ao? (true / false)
-
+*/
 
